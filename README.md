@@ -1,4 +1,4 @@
-# Quasar App (based on PatrickMonteiro Tutorial)
+# Quasar App (based on PatrickMonteiro Tutorial) - WIP
 
 A Quasar Project that consumes viladosilicio.com.br API
 

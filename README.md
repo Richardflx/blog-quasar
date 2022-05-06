@@ -1,6 +1,14 @@
-# Quasar App (based on PatrickMonteiro Tutorial) - WIP
+# Quasar App (based on PatrickMonteiro Tutorial)
 
-A Quasar Project that consumes viladosilicio.com.br API
+A Quasar Project that consumes viladosilicio.com.br API.
+
+## Tecnologies
+
+![image](https://img.shields.io/badge/QUASAR-blue?style=for-the-badge&logo=quasar)
+![image](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![image](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Install the dependencies
 
@@ -24,8 +32,9 @@ or
 
 ### Build the app for production
 
+SPA (Default):
 > quasar build
 
-### Customize the configuration
+Can build for desktop with Electron and for mobile devices Android and IOS.
 
-See [Configuring quasar.conf.js](https://v1.quasar.dev/quasar-cli/quasar-conf-js).
+For more information, see <https://quasar.dev/>.

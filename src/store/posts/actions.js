@@ -6,6 +6,7 @@ const setPosts = ({ commit }) => {
       .then((suc) => {
         commit('SET_POSTS', suc.data)
         resolve(suc.data)
+        console.log(suc.data)
       })
       .catch((err) => {
         reject(err)

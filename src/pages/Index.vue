@@ -10,7 +10,7 @@
         </q-card-section>
 
         <div class="absolute-bottom">
-          <q-btn color="secondary" class="full-width">Detalhar</q-btn>
+          <q-btn color="secondary" class="full-width" @click="details(post.content.rendered)">Detalhar</q-btn>
         </div>
       </q-card>
       </div>
@@ -32,7 +32,10 @@ export default {
     ...mapState('Posts', ['posts'])
   },
   methods: {
-    ...mapActions('Posts', ['setPosts'])
+    ...mapActions('Posts', ['setPosts']),
+    details (blogcontent) {
+      this.$router.push({ name: 'details', params: { text: blogcontent } })
+    }
   }
 }
 </script>
